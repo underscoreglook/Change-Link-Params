@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Change Link Params",
+  "version": "1.0",
+  "description": "When right clicking on a link, there's a context menu that adds, removes, or replaces parameters in the URL.",
+  
+  "applications": {
+    "gecko": {
+	  "id": "linkChanger@uglook.net",
+      "strict_min_version": "56.0a1"
+    }
+  },
+
+  "background": {
+	"scripts": ["changer.js"]
+  },
+  
+  "permissions": ["menus", "activeTab", "storage"],
+  
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  }
+
+}
