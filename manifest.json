@@ -12,6 +12,11 @@
     }
   },
 
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
+
   "background": {
 	"scripts": ["changer.js"]
   },
